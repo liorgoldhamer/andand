@@ -17,4 +17,5 @@ Gem::Specification.new do |s|
       "test/test_helper.rb"]
   s.rdoc_options = ["--main", "README.textile"]
   s.extra_rdoc_files = ["History.txt", "README.textile"]
+  s.add_development_dependency "rake"
 end
